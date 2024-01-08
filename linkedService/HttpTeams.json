@@ -1,0 +1,12 @@
+{
+	"name": "HttpTeams",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/sayantanbarat/tokiyo_dataset/blob/main/Teams.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
