@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsbone"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"athletesserivce_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://rawstg1.dfs.core.windows.net/"
+		},
+		"HttpMedals_properties_typeProperties_url": {
+			"value": "https://github.com/sayantanbarat/tokiyo_dataset/blob/main/Medals.csv"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/sayantanbarat/tokiyo_dataset/main/Athletes.csv"
+		},
+		"HttpServer2_properties_typeProperties_url": {
+			"value": "https://github.com/sayantanbarat/tokiyo_dataset/blob/main/EntriesGender.csv"
+		},
+		"HttpTeams_properties_typeProperties_url": {
+			"value": "https://github.com/sayantanbarat/tokiyo_dataset/blob/main/Teams.csv"
+		},
+		"Httpcoaches_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/sayantanbarat/tokiyo_dataset/main/Coaches.csv"
+		},
+		"athletesserivce_properties_typeProperties_url": {
+			"value": "https://rawstg1.dfs.core.windows.net/"
+		}
+	}
+}
