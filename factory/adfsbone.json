@@ -1,0 +1,9 @@
+{
+	"name": "adfsbone",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "50e2b118-facf-4ac5-9c23-64c4550cc68f",
+		"tenantId": "6ae3877a-bdbd-4c10-b439-bbf3e2daeefd"
+	}
+}
